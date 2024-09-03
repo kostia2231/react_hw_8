@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+ul {
+  list-style-type: none;
+}
+
+.list-wrapper button {
+  border: none;
+  padding: 1rem 2rem;
+  font-size: inherit;
+  border-radius: 3rem;
+}
+
+.list-wrapper button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.list-wrapper input {
+  border: 1px solid black;
+  border-radius: none;
+  padding: 1rem;
+}
